@@ -1,6 +1,6 @@
 const Engine = Matter.Engine
 const World= Matter.World
-const Bodies =Matter.BodieS
+const Bodies =Matter.Bodies
 const Constraint = Matter.Constraint
 
 var engine, world;
@@ -79,7 +79,10 @@ function setup() {
 function draw() {
   background(rgb(0, 250, 138));
   Engine.update(engine);
-
+  
+  stroke(15);
+  text("Drag The Hexagonal Stone and Release it , to Launch to wards the Blocks");
+  
   fill(rgb(255, 190, 196));
   block1.display();
   block2.display();
