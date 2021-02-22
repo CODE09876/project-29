@@ -12,7 +12,7 @@ var ground1, ground2, ground3;
 var block15, block16, block17, block18, block19, block20, block21;
 var block22;
 var sling;
-var player;
+
 
 var ball;
 var img;
@@ -129,6 +129,7 @@ function draw() {
   sling.display();
 }
 
+polygon.display();
 
 function mouseDragged(){
   Matter.Body.setPosition(this.ball, {x: mouseX , y: mouseY});
