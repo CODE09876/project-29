@@ -81,7 +81,7 @@ function draw() {
   Engine.update(engine);
   
   stroke(25);
-  text("Drag The Hexagonal Stone and Release it , to Launch to wards the Blocks",300,1400);
+  text("Drag The Hexagonal Stone and Release it , to Launch to wards the Blocks",200,40);
   
   fill(rgb(255, 190, 196));
   block1.display();
